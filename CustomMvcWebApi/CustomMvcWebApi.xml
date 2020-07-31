@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomMvcWebApi</name>
+    </assembly>
+    <members>
+        <member name="T:CustomMvcWebApi.Controllers.CommandsController">
+            <summary>
+            Returns all of commands
+            </summary>
+        </member>
+        <member name="M:CustomMvcWebApi.Controllers.CommandsController.GetCommands">
+            <summary>
+            Returns all commands of apllication
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CustomMvcWebApi.Controllers.CommandsController.GetCommandById(System.Int32)">
+            <summary>
+            Returns some command by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CustomMvcWebApi.Controllers.CommandsController.AddCommand(CustomMvcWebApi.Models.Command)">
+            <summary>
+            Adds some command to the list of commands
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CustomMvcWebApi.Controllers.ValuesController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CustomMvcWebApi.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CustomMvcWebApi.Data.ICommanderRepo">
+            <summary>
+            Provides CommanderRepository specification
+            </summary>
+        </member>
+        <member name="T:CustomMvcWebApi.Data.MockCommandRepo">
+            <summary>
+            Additional class, which helps to test api`s model
+            </summary>
+        </member>
+    </members>
+</doc>
